@@ -17,6 +17,10 @@
 
 1. Si la función es llamada con `n=10`, ¿cuál es el valor de la variable `n` que se visualiza en la ventana de variables del debugger justo antes de que se ejecute la línea `serie = [0, 1]`?
 
+N sera igual a 10
+
+![]()
+
 ---
 
 ### Apartado 2
@@ -29,8 +33,21 @@
 
 1. Justo cuando el debugger se detiene dentro de la función `calcular_siguiente` por **primera vez**, ¿cuál es el valor que tiene la variable local `aux` *después* de que se ejecute la línea `aux = serie[-1] + serie[-2]`?
 **(Indica el valor numérico exacto de la variable `aux` en ese momento y el nombre de la herramienta de *debugging* que utilizaste para entrar en la función).**
+
+el valor de aux es 1 y la herramienta fue step into
+
+![]()
+
 2. Si estuvieras dentro de la función `calcular_siguiente` y quisieras salir rápidamente sin ejecutar el resto de las líneas, volviendo al punto de llamada en `funcion_bucle`, ¿qué función del debugger deberías usar?
+
+para salir usaria step out 
+
+![]()
+
 3. ¿Qué diferencia fundamental existe entre usar *Step Over* y *Step Into* en la línea `siguiente_numero = calcular_siguiente(serie)`?
+
+La diferencia es clara, el step into te manda a la funcion para que se ejectue linea por linea, step over lo que hace es ejecutar esa linea en concreto,
+haciendo asi la funcion directamente
 
 ---
 
@@ -42,5 +59,9 @@
 **Pregunta**
 
 1. Cuando el *Breakpoint Condicional* se activa por **primera vez** (la primera vez que `siguiente_numero` es mayor que 20000), ¿qué longitud tiene `serie`?
+
+La longitud de serie seria 2584
+
+![]()
 
 ---
